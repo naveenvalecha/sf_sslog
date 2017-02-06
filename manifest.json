@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Site Factory Simple Search logs",
+  "description": "This extension helps you to filter the WIP logs in Acquia Cloud Site factory.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Click here!"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
